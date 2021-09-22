@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -11,7 +11,7 @@
 	<PackageReference Include="SciSharp.TensorFlow.Redist" Version="1.14.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Handwriiten Numbers ML.NETML.Model\Handwriiten Numbers ML.NETML.Model.csproj" />
+    <ProjectReference Include="..\Handwriiten Numbers ML.NETML.Model\Handwritten Numbers ML.NETML.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>

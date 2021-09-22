@@ -12,7 +12,7 @@ namespace Handwriiten_Numbers_ML_NETML.ConsoleApp
             // Create single instance of sample data from first line of dataset for model input
             ModelInput sampleData = new ModelInput()
             {
-                ImageSource = @"C:\Users\Marvin Kosmider\FH Technikum Wien\Studium\Semester 1\Software Engineering\1 ML.NET\mnist_png\training\0\1.png",
+                ImageSource = @"../../../120.png",
             };
 
             // Make a single prediction on the sample data and print results

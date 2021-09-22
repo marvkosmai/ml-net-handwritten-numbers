@@ -27,7 +27,7 @@ namespace Handwriiten_Numbers_ML_NETML.Model
             MLContext mlContext = new MLContext();
 
             // Load model & create prediction engine
-            string modelPath = @"C:\Users\Marvin Kosmider\AppData\Local\Temp\MLVSTools\Handwriiten Numbers ML.NETML\Handwriiten Numbers ML.NETML.Model\MLModel.zip";
+            string modelPath = @"MLModel.zip";
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 
